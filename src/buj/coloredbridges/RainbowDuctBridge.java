@@ -62,6 +62,7 @@ public class RainbowDuctBridge extends DuctBridge {
         this.saveData = source.saveData;
         this.breakable = source.breakable;
         this.rebuildable = source.rebuildable;
+        this.buildCostMultiplier = source.buildCostMultiplier;
         this.privileged = source.privileged;
         this.requiresWater = source.requiresWater;
         this.placeableLiquid = source.placeableLiquid;
