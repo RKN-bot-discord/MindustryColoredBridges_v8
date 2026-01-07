@@ -143,14 +143,10 @@ public class RainbowDuctBridge extends DuctBridge {
         this.emitLight = source.emitLight;
         this.lightRadius = source.lightRadius;
         this.fogRadius = source.fogRadius;
-        this.loopSound = source.loopSound;
-        this.loopSoundVolume = source.loopSoundVolume;
         this.ambientSound = source.ambientSound;
         this.ambientSoundVolume = source.ambientSoundVolume;
         this.requirements = source.requirements;
         this.category = source.category;
-        this.buildCost = source.buildCost;
-        this.buildCostMultiplier = source.buildCostMultiplier;
         this.deconstructThreshold = source.deconstructThreshold;
         this.instantDeconstruct = source.instantDeconstruct;
         this.placeEffect = source.placeEffect;
